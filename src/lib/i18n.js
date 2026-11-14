@@ -3,15 +3,15 @@ export const LANGUAGES = ['tr', 'en'];
 export const messages = {
   tr: {
     htmlLang: 'tr',
-    title: 'kes — tarayıcıda ses kesici',
-    description: 'Ses dosyanı tarayıcında kes. Yükleme yok, hesap yok; dosyan cihazından çıkmaz.',
+    title: 'Audio Cutter — Tarayıcıda Ses Kesici',
+    description: 'Cut audio in your browser. No uploads, no account; your file never leaves your device.',
     switchTo: 'Switch to English',
     toggleLabel: 'EN',
     privacy: 'hiçbir şey yüklenmez',
-    headline1: 'Sesi kes.',
-    headline2: 'Dosyan cihazında kalsın.',
+    headline1: 'Cut the audio.',
+    headline2: 'Keep the file on your device.',
     intro:
-      'Kayıt yok, hesap yok, yükleme yok. Ses dosyası tarayıcının içinde çözülür ve yine orada kesilir — sunucuya tek bir bayt gitmez.',
+      'No sign-up, no account, no upload. Your audio is decoded inside the browser and cut right there — not a single byte reaches a server.',
     dropTitle: 'Ses dosyanı buraya bırak',
     dropBusy: 'Çözümleniyor…',
     dropBusyHint: 'Dosya cihazında işleniyor',
@@ -20,7 +20,7 @@ export const messages = {
     dropFormats: '· mp3, wav, m4a, ogg, flac',
     changeFile: 'Dosya değiştir',
     decoding: 'Çözümleniyor…',
-    editorLabel: 'Ses kesici',
+    editorLabel: 'Audio Cutter',
     start: 'Başlangıç',
     end: 'Bitiş',
     length: 'Uzunluk',
@@ -46,7 +46,7 @@ export const messages = {
   },
   en: {
     htmlLang: 'en',
-    title: 'kes — audio cutter in your browser',
+    title: 'Audio Cutter — Cut audio in your browser',
     description:
       'Cut audio in your browser. No uploads, no account; your file never leaves your device.',
     switchTo: 'Türkçeye geç',
@@ -64,7 +64,7 @@ export const messages = {
     dropFormats: '· mp3, wav, m4a, ogg, flac',
     changeFile: 'Change file',
     decoding: 'Decoding…',
-    editorLabel: 'Audio cutter',
+    editorLabel: 'Audio Cutter',
     start: 'Start',
     end: 'End',
     length: 'Length',

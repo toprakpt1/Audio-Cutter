@@ -1,9 +1,9 @@
 {
-  "name": "kes",
+  "name": "audio-cutter",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "Tarayıcıda çalışan, yerel-first ses kesici. Dosya hiçbir sunucuya gitmez.",
+  "description": "Browser-based local-first audio cutter. No server-side processing — your file never leaves your device.",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

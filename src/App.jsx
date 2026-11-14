@@ -176,7 +176,7 @@ export default function App() {
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.href = url;
-    link.download = `${track.name}-kesim.wav`;
+    link.download = `${track.name}-cutter.wav`;
     link.click();
 
     window.setTimeout(() => URL.revokeObjectURL(url), 15000);
@@ -284,7 +284,7 @@ export default function App() {
             <rect x="9" y="4.5" width="2" height="7" rx="1" />
             <rect x="13" y="7" width="2" height="2" rx="1" />
           </svg>
-          <span>kes</span>
+          <span>Audio Cutter</span>
         </div>
 
         <div className="top-side">
